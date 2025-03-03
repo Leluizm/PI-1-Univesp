@@ -103,28 +103,39 @@ header {
 
 .funcionario1 h2 {
     margin: 10px 0;
+    padding: 10px 0;
     color: #333;
+    text-align: center;
 }
 
 .funcionario2 h2 {
     margin: 10px 0;
+    padding: 10px 0;
     color: #333;
+    text-align: center;
 }
 
 .funcionario3 h2 {
     margin: 10px 0;
-     color: #333;
+    padding: 10px 0;
+    color: #333;
+    text-align: center;
 }
 
 .funcionario4 h2 {  
     margin: 10px 0;
+    padding: 10px 0;
     color: #333;
+    text-align: center;
 }
 
 .funcionario1 p {
     font-size: 20px;
     color: gray;
     font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 0;
+    
     
 }
 
@@ -132,18 +143,24 @@ header {
     font-size: 20px;
     color: gray;
     font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 0;
 }
 
 .funcionario3 p {
     font-size: 20px;
     color: gray;
-    font-weight: bold;  
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 0;
 }
 
 .funcionario4 p {
     font-size: 20px;
     color: gray;
-    font-weight: bold;  
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 0;
 }
 
 .funcionario1 a {
@@ -179,12 +196,13 @@ header {
 }
 
 
- /* Abaixo estao IDs */
+ /* Abaixo esta ID*/
 
 #instalogo {   
-    width: 25px;
-    height: auto;
-    border-radius: 50%;
+    width: 100px;
+    height: auto; 
+    
+  
 
   }
 
@@ -240,6 +258,7 @@ h1 {
 .profile p {
     font-size: 18px;
     color: #555;
+    text-align: center;
 }
 
 .botao {
@@ -255,6 +274,7 @@ h1 {
     background-color: black;
 }
 
+/* Abaixo esta ID */
 
 #agendamento{
     background-color: rgb(190, 190, 37);
