@@ -1,21 +1,12 @@
 
 /* CSS pagina portifolio (portifolio.html)*/
 
-* {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    
 
-}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
     
+    text-align: center;
+    padding: 20px 
 }
 
 .nome {
