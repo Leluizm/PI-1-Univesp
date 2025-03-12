@@ -60,9 +60,10 @@ h1 {
 
 body {
     font-family: Arial, sans-serif;
+    padding: 10px;
     font-size: 1rem;
-    margin: 0;
-    padding: 0;
+    text-align: left;
+    margin: 50px auto; 
 }
 
 /* Estilos do conteúdo */
