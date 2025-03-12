@@ -64,8 +64,7 @@ body {
 
 .back-button {
     display: inline-block;
-    background-color: gray;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 12px 20px;
     text-decoration: none;
     font-size: 18px;
@@ -75,7 +74,7 @@ body {
 }
 
 .back-button:hover {
-    background-color:black;
+    background-color: #007BFF;
 }
 
 /* Cores Portifolio */
