@@ -1,27 +1,31 @@
 
-/* CSS pagina principal (index.html) */
+
+ /* CSS pagina principal (index.html)*/
 
 body {
     background-color: white;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    padding: 20px 
+    
 
+}
 header {
     background-color: black;
     color: white;
     padding: 10px;
     font-size: 1rem;
     text-align: left;
-    margin: 50px auto;
+    margin: 50px auto; 
+    
+
 }
 
 .linkportifolio {
     font-size: 18px;
     color: #555;
-}
 
+}
 .portfolio {
     display: flex;
     justify-content: center;
@@ -29,7 +33,7 @@ header {
     margin: 20px;
 }
 
-.funcionario {
+.funcionario1 {
     background: white;
     margin: 20px;
     padding: 25px;
@@ -38,23 +42,106 @@ header {
     max-width: 200px;
     width: 100%;
     text-align: center;
-}
+} 
+  
+.funcionario2 {
+    background: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    }
 
-.funcionario img {
+.funcionario3 {
+    background: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+ }
+ .funcionario4 {
+    background: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+ }
+
+.funcionario1 img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.funcionario h2 {
+.funcionario2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.funcionario3 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.funcionario4 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.funcionario1 h2 {
     margin: 10px 0;
     padding: 10px 0;
     color: #333;
     text-align: center;
 }
 
-.funcionario p {
+.funcionario2 h2 {
+    margin: 10px 0;
+    padding: 10px 0;
+    color: #333;
+    text-align: center;
+}
+
+.funcionario3 h2 {
+    margin: 10px 0;
+    padding: 10px 0;
+    color: #333;
+    text-align: center;
+}
+
+.funcionario4 h2 {  
+    margin: 10px 0;
+    padding: 10px 0;
+    color: #333;
+    text-align: center;
+}
+
+.funcionario1 p {
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 0;
+    
+    
+}
+
+.funcionario2 p {
     font-size: 20px;
     color: gray;
     font-weight: bold;
@@ -62,7 +149,23 @@ header {
     padding: 5px 0;
 }
 
-.funcionario a {
+.funcionario3 p {
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.funcionario4 p {
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.funcionario1 a {
     display: inline-block;
     margin: 5px;
     text-decoration: none;
@@ -70,16 +173,44 @@ header {
     font-weight: bold;
 }
 
-/* ID */
-
-#instalogo {
-    width: 100px;
-    height: auto;
+.funcionario2 a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
 }
 
-/* CSS pagina portifolio(portifolio.html) */
+.funcionario3 a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
 
-* {
+.funcionario4 a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+
+ /* Abaixo esta ID*/
+
+#instalogo {   
+    width: 100px;
+    height: auto; 
+    
+  
+
+  }
+
+   /* CSS pagina portifolio(portifolio.html)*/
+
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -134,28 +265,31 @@ h1 {
 
 .botao {
     display: inline-block;
-    background-color: white;
+    background-color:white;
     color: white;
     padding: 12px 20px;
     font-size: 18px;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
-
 .botao:hover {
     background-color: black;
 }
 
-#agendamento {
+/* Abaixo esta ID */
+
+#agendamento{
+   
     display: inline-block;
-    background-color: white;
+    background-color:white;
     color: rgb(0, 0, 0);
-    padding: 13px;
+    padding: 13px ;
     font-size: 18px;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
-#agendamento:hover {
-    background-color: #007BFF;
+#agendamento:hover{
+
+background-color: #007BFF;
 }

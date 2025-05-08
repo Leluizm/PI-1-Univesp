@@ -1,11 +1,16 @@
-/* CSS página portifolio (portifolio.html) */
+
+/* CSS pagina portifolio (portifolio.html)*/
+
+
 
 body {
-    font-family: Arial, sans-serif;
+    
     text-align: center;
-    padding: 20px;
-    margin: 0;
-    width: 90%;
+    padding: 20px 
+}
+
+.nome {
+    text-align: center;
 }
 
 h1 {
@@ -28,13 +33,15 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 220px;
     text-align: center;
-}
 
+    }
+   
 .foto img {
     width: 100%;
     height: auto;
     border-radius: 0%;
     margin-bottom: 10px;
+   
 }
 
 .foto p {
@@ -42,7 +49,19 @@ h1 {
     color: #555;
 }
 
-/* Botão de Voltar (se for usado) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 90%
+}
+
+/* Estilos do conteúdo */
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
 .back-button {
     display: inline-block;
     color: rgb(0, 0, 0);
@@ -58,19 +77,20 @@ h1 {
     background-color: #007BFF;
 }
 
-/* Cores do fundo por artista */
-#portifoliocarla {
-    background-color: pink;
+/* Cores Portifolio */
+
+#portifoliocarla{
+background-color: pink;
 }
 
-#portifoliomurilo {
-    background-color: rgb(183, 228, 183);
+#portifoliomurilo{
+    background-color:rgb(183, 228, 183);
 }
 
-#portifoliopaulo {
-    background-color: rgb(243, 252, 129);
-}
+#portifoliopaulo{
+        background-color:rgb(243, 252, 129);
+ }
 
-#portifolioleonardo {
-    background-color: rgb(201, 101, 101);
+ #portifolioleonardo{
+    background-color:rgb(201, 101, 101);
 }
