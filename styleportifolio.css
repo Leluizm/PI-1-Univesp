@@ -1,16 +1,11 @@
-
-/* CSS pagina portifolio (portifolio.html)*/
-
-
+/* CSS página portifolio*/
 
 body {
-    
+    font-family: Arial, sans-serif;
     text-align: center;
-    padding: 20px 
-}
-
-.nome {
-    text-align: center;
+    padding: 20px;
+    margin: 0;
+    width: 90%;
 }
 
 h1 {
@@ -33,15 +28,12 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 220px;
     text-align: center;
+}
 
-    }
-   
 .foto img {
     width: 100%;
     height: auto;
-    border-radius: 0%;
     margin-bottom: 10px;
-   
 }
 
 .foto p {
@@ -49,14 +41,6 @@ h1 {
     color: #555;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    width: 90%
-}
-
-/* Estilos do conteúdo */
 .content {
     text-align: center;
     padding: 50px;
@@ -79,18 +63,18 @@ body {
 
 /* Cores Portifolio */
 
-#portifoliocarla{
-background-color: pink;
+#portifoliocarla {
+    background-color: pink;
 }
 
-#portifoliomurilo{
-    background-color:rgb(183, 228, 183);
+#portifoliomurilo {
+    background-color: rgb(183, 228, 183);
 }
 
-#portifoliopaulo{
-        background-color:rgb(243, 252, 129);
- }
+#portifoliopaulo {
+    background-color: rgb(243, 252, 129);
+}
 
- #portifolioleonardo{
-    background-color:rgb(201, 101, 101);
+#portifolioleonardo {
+    background-color: rgb(201, 101, 101);
 }
