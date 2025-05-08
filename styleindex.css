@@ -68,7 +68,7 @@ header {
 
 .funcionario p {
     font-size: 1.1rem;
-    color: #555;
+    color: #555454;
     font-weight: bold;
     margin: 10px 0;
     font-style: italic;
@@ -83,7 +83,7 @@ header {
     height: auto;
     margin: 10px auto;
     display: block;
-    border: none !important;
+    border: none ;
     
 } 
     #instalogo:hover {
@@ -93,8 +93,8 @@ header {
 
 .botao {
     display: inline-block;
-    background-color: #333;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     margin: 10px 5px;
     border-radius: 5px;
@@ -104,26 +104,27 @@ header {
 }
 
 .botao:hover {
-    background-color: #000;
+    background-color: #e9e0e0;
 }
 
 #agendamento {
     display: inline-block;
     background-color: white;
-    color: #333;
-    padding: 10px 20px;
+    color: black;
+    padding: 10px 10px;
     margin: 10px 0;
     border: 1px solid #333;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s;
+   
 }
 
 #agendamento:hover {
-    background-color: #007BFF;
-    color: white;
-    border-color: #007BFF;
+    background-color: #e9e0e0;
+    
+    
 }
 
 /* CSS seção do Google Maps */
@@ -147,6 +148,7 @@ header a:hover {
 }
 
 /* CSS Logo da Página */
+
 header img {
     max-width: 200px;
     height: auto;
