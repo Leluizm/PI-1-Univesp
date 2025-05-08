@@ -82,19 +82,20 @@ header {
    
     width: 80px;
     height: auto;
-    margin: 10px 0;
+    margin: 10px auto;
+    display: block;
     transition: transform 0.3s;
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    border: none !important;         
-    border-radius: 0 !important;     
-    outline: none !important;       
-    box-shadow: none !important;     
-    background: none !important;     
-    padding: 0 !important;           
-
-    }
+    border: none !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    padding: 0 !important;
+} 
+    img:hover {
+        transform: scale(1.1);
+      
+}
 
 .botao {
     display: inline-block;
