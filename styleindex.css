@@ -1,4 +1,5 @@
 /* Geral*/
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +28,7 @@ header {
 }
 
 /* CSS Funcionários */
+
 .portfolio {
     display: flex;
     justify-content: center;
@@ -35,7 +37,7 @@ header {
     gap: 20px;
 }
 
-.funcionario1, .funcionario2, .funcionario3, .funcionario4 {
+.funcionario{
     background: white;
     padding: 25px;
     border-radius: 10px;
@@ -46,53 +48,45 @@ header {
     margin-bottom: 30px;
 }
 
-.funcionario1 img, 
-.funcionario2 img, 
-.funcionario3 img, 
-.funcionario4 img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+
+.funcionario img {
+    width: 100px;
+    height: 100px;
+    border: none !important;
     object-fit: cover;
     margin-bottom: 15px;
     border: 3px solid #f0f0f0;
 }
 
-.funcionario1 h2, 
-.funcionario2 h2, 
-.funcionario3 h2, 
-.funcionario4 h2 {
+
+.funcionario h2 {
     margin: 10px 0;
-    color: #333;
+    color: black;
     font-size: 1.5rem;
 }
 
-.funcionario1 p, 
-.funcionario2 p, 
-.funcionario3 p, 
-.funcionario4 p {
+
+.funcionario p {
     font-size: 1.1rem;
     color: #555;
     font-weight: bold;
     margin: 10px 0;
+    font-style: italic;
+
 }
 
 /* CSS Links e Botões */
+
 #instalogo {
    
     width: 80px;
     height: auto;
     margin: 10px auto;
     display: block;
-    transition: transform 0.3s;
     border: none !important;
-    border-radius: 0 !important;
-    outline: none !important;
-    box-shadow: none !important;
-    background: none !important;
-    padding: 0 !important;
+    
 } 
-    img:hover {
+    #instalogo:hover {
         transform: scale(1.1);
       
 }
